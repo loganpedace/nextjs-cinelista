@@ -1,10 +1,11 @@
-import styles from "./Footer.module.css"
+import styles from "./Footer.module.css";
 const Footer = () => {
-    
-    return (
-        <footer className={styles.footer}>
-            <p className={styles.footer__copyright}>Cinelista - Todos os direitos reservados.</p>
-        </footer>
-    );
-}
+  return (
+    <footer className={styles.footer}>
+      <p className={styles.footer__copyright}>
+        Cinelista - Todos os direitos reservados.
+      </p>
+    </footer>
+  );
+};
 export default Footer;

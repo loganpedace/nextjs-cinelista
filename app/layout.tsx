@@ -3,10 +3,10 @@ import "@/styles/globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-
 export const metadata: Metadata = {
   title: "Cinelista",
-  description: "No Cinelista, você encontra tudo sobre o mundo do cinema, filmes em cartaz, trailers, notícias e muito mais!"
+  description:
+    "No Cinelista, você encontra tudo sobre o mundo do cinema, filmes em cartaz, trailers, notícias e muito mais!",
 };
 
 export default function RootLayout({
@@ -17,9 +17,9 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body>
-        <Header/>
+        <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

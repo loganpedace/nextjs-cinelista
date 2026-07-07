@@ -5,13 +5,12 @@ import { getNowPlaying } from "@/lib/api/tmdb";
 export const dynamic = "force-dynamic";
 
 const FilmesEmAlta = async () => {
-
-    const filmes = await getNowPlaying();
-    return (
-        <>
-            <Title title="Filmes em Alta" />
-            <Grid filmes={filmes.results}></Grid>
-        </>
-    )
-}
+  const filmes = await getNowPlaying();
+  return (
+    <>
+      <Title title="Filmes em Alta" />
+      <Grid filmes={filmes.results}></Grid>
+    </>
+  );
+};
 export default FilmesEmAlta;
