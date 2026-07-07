@@ -4,7 +4,7 @@ name: Pipeline CI/CD
 on: 
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
     
 jobs:
