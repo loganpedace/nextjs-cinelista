@@ -57,7 +57,7 @@ jobs:
         run: npm install
 
       - name: Rodar testes
-        run: npm run test
+        run: npm run test --ci --watchAll=false
         env:
           TMDB_API_URL: ${{ vars.TMDB_API_URL }}
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
